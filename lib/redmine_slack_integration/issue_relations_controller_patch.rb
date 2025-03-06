@@ -8,7 +8,6 @@ module RedmineSlackIntegration
       base.send(:include, InstanceMethods)
       ## Same as typing in the class
       base.class_eval do
-        unloadable
         after_action :after_action_create, :only => :create
         after_action :after_action_destroy, :only => :destroy
       end
