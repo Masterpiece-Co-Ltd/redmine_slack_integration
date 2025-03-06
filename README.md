@@ -1,6 +1,6 @@
 # Redmine Slack Integration Plugin
 
-For Redmine 4.x.x.
+For Redmine 6.x.x.
 
 ### Plugin installation
 
@@ -8,7 +8,7 @@ For Redmine 4.x.x.
     note that plugin's folder name should be `redmine_slack_integration`.
     
 ```sh
-git clone git@github.com:future-architect/redmine_slack_integration.git redmine_slack_integration
+git clone git@github.com:Masterpiece-Co-Ltd/redmine_slack_integration.git redmine_slack_integration
 ```
 
 2.  Install gem dependencies.
